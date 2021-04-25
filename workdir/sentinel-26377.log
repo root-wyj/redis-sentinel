@@ -1,0 +1,51 @@
+22620:X 13 May 2020 14:43:49.218 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+22620:X 13 May 2020 14:43:49.218 # Redis version=5.0.7, bits=64, commit=00000000, modified=0, pid=22620, just started
+22620:X 13 May 2020 14:43:49.218 # Configuration loaded
+22621:X 13 May 2020 14:43:49.221 * Running mode=sentinel, port=26377.
+22621:X 13 May 2020 14:43:49.222 # Sentinel ID is 75a736e58c783d3ce6e9684d3a06be83db561a73
+22621:X 13 May 2020 14:43:49.222 # +monitor master redis-sentinel-mode-master 127.0.0.1 16379 quorum 2
+22621:X 13 May 2020 14:44:19.280 # +sdown master redis-sentinel-mode-master 127.0.0.1 16379
+23688:X 13 May 2020 15:41:14.578 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+23688:X 13 May 2020 15:41:14.579 # Redis version=5.0.7, bits=64, commit=00000000, modified=0, pid=23688, just started
+23688:X 13 May 2020 15:41:14.579 # Configuration loaded
+23689:X 13 May 2020 15:41:14.583 * Running mode=sentinel, port=26377.
+23689:X 13 May 2020 15:41:14.584 # Sentinel ID is fded94f143cbc1cde15a93a2415d07c0e3a87e06
+23689:X 13 May 2020 15:41:14.584 # +monitor master redis-sentinel-mode-master 127.0.0.1 16379 quorum 2
+23689:X 13 May 2020 15:41:14.586 * +slave slave 127.0.0.1:16378 127.0.0.1 16378 @ redis-sentinel-mode-master 127.0.0.1 16379
+23689:X 13 May 2020 15:41:14.587 * +slave slave 127.0.0.1:16377 127.0.0.1 16377 @ redis-sentinel-mode-master 127.0.0.1 16379
+23689:X 13 May 2020 15:41:14.820 * +sentinel sentinel b242c7a37ea0807062ff70f61b7a309c302c9a03 127.0.0.1 26379 @ redis-sentinel-mode-master 127.0.0.1 16379
+23689:X 13 May 2020 15:41:15.328 * +sentinel sentinel 2abe002f4fda8f1f5632cef660e16ad6a3462587 127.0.0.1 26378 @ redis-sentinel-mode-master 127.0.0.1 16379
+23689:X 13 May 2020 18:18:18.208 # +sdown master redis-sentinel-mode-master 127.0.0.1 16379
+23689:X 13 May 2020 18:18:18.320 # +new-epoch 1
+23689:X 13 May 2020 18:18:18.320 # +vote-for-leader b242c7a37ea0807062ff70f61b7a309c302c9a03 1
+23689:X 13 May 2020 18:18:18.845 # +config-update-from sentinel b242c7a37ea0807062ff70f61b7a309c302c9a03 127.0.0.1 26379 @ redis-sentinel-mode-master 127.0.0.1 16379
+23689:X 13 May 2020 18:18:18.845 # +switch-master redis-sentinel-mode-master 127.0.0.1 16379 127.0.0.1 16378
+23689:X 13 May 2020 18:18:18.846 * +slave slave 127.0.0.1:16377 127.0.0.1 16377 @ redis-sentinel-mode-master 127.0.0.1 16378
+23689:X 13 May 2020 18:18:18.846 * +slave slave 127.0.0.1:16379 127.0.0.1 16379 @ redis-sentinel-mode-master 127.0.0.1 16378
+23689:X 13 May 2020 18:18:48.902 # +sdown slave 127.0.0.1:16379 127.0.0.1 16379 @ redis-sentinel-mode-master 127.0.0.1 16378
+23689:X 16 May 2020 00:06:40.121 # +tilt #tilt mode entered
+23689:X 16 May 2020 00:07:09.950 # -tilt #tilt mode exited
+23689:X 16 May 2020 08:45:02.597 # +tilt #tilt mode entered
+23689:X 16 May 2020 08:45:32.638 # -tilt #tilt mode exited
+23689:X 16 May 2020 10:07:18.973 # +tilt #tilt mode entered
+23689:X 16 May 2020 10:07:49.050 # -tilt #tilt mode exited
+23689:X 16 May 2020 21:00:01.984 # +tilt #tilt mode entered
+23689:X 16 May 2020 21:00:32.029 # -tilt #tilt mode exited
+23689:X 17 May 2020 08:45:02.653 # +tilt #tilt mode entered
+23689:X 17 May 2020 08:45:32.676 # -tilt #tilt mode exited
+23689:X 17 May 2020 18:29:40.979 # +tilt #tilt mode entered
+23689:X 17 May 2020 18:30:10.989 # -tilt #tilt mode exited
+23689:X 17 May 2020 20:42:07.137 # +tilt #tilt mode entered
+23689:X 17 May 2020 20:42:37.190 # -tilt #tilt mode exited
+23689:X 17 May 2020 20:44:18.568 # +tilt #tilt mode entered
+23689:X 17 May 2020 20:44:48.638 # -tilt #tilt mode exited
+23689:X 17 May 2020 20:59:22.901 # +tilt #tilt mode entered
+23689:X 17 May 2020 20:59:52.887 # -tilt #tilt mode exited
+23689:X 17 May 2020 23:10:35.737 # +tilt #tilt mode entered
+23689:X 17 May 2020 23:11:05.775 # -tilt #tilt mode exited
+23689:X 18 May 2020 09:21:40.720 # +tilt #tilt mode entered
+23689:X 18 May 2020 09:22:10.557 # -tilt #tilt mode exited
+23689:signal-handler (1589765160) Received SIGTERM scheduling shutdown...
+23689:X 18 May 2020 09:26:00.297 # User requested shutdown...
+23689:X 18 May 2020 09:26:00.297 * Removing the pid file.
+23689:X 18 May 2020 09:26:00.298 # Sentinel is now ready to exit, bye bye...
